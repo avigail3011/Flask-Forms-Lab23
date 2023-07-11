@@ -15,6 +15,7 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
 
 @app.route('/')  # '/' for the default page
 def login():
+	x=1
   return render_template('login.html')
   
 
